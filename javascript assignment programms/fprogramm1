@@ -1,0 +1,9 @@
+var weather=[43,78,98,67,65,65,54,45,35,3,3,4,34,34,54,6,675];
+var goOutside=[];
+for(var i=0;i<weather.length;i++){
+    if(weather[i]>70)
+    {
+        goOutside.push(weather[i]);
+    }
+}
+goOutside;

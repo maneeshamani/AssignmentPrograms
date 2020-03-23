@@ -1,0 +1,56 @@
+		var userName = prompt('What is your name?');
+if (userName) {
+  console.log('Hello, ' + userName + '.');
+} else {
+ console.log('Hello!');
+} 
+var userQuestion = prompt('Please ask a question!');
+console.log('User question: ' + userQuestion);
+var randomNumber = Math.floor(Math.random() * 8);
+var eightBall = '';
+switch (randomNumber){
+  case 0:
+    eightBall = 'Better not tell you now.';
+    break;
+  case 1:
+    eightBall = 'Concentrate and ask again.';
+    break;
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now';
+    break;
+  case 4:
+    eightBall = 'Dont count on it';
+    break;
+  case 5:
+    eightBall = 'My reply is no.';
+    break;
+  case 6:
+    eightBall = 'Outlook not so good';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes';
+    break;
+}
+console.log('The eight ball answer: ' + eightBall);
+if (randomNumber === 0) {
+   'Better not tell you now.';
+} else if (randomNumber === 1) {
+    'Concentrate and ask again.';
+} else if (randomNumber === 2) {
+     'Reply hazy try again';
+} else if (randomNumber === 3) {
+    'Cannot predict now';
+} else if (randomNumber === 4) {
+     'Dont count on it';
+} else if (randomNumber === 5) {
+     'My reply is no.';
+} else if (randomNumber === 6) {
+   'Outlook not so good';
+} else if (randomNumber === 7) {
+     'Reply hazy try again';
+} else {
+    'Signs point to yes';
+} 
